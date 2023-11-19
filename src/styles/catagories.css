@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cat_bottom {
+  max-width: 100%;
+  padding: 4% 5%;
+  background-color: rgb(236, 236, 236);
+}
+
+.cat_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cat_top {
+  padding: 5rem 4rem;
+  background-color: #cfcece;
+}
+
+@media screen and (max-width: 680px) {
+  .cat_content {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  .cat_content {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .cat_content {
+    justify-content: center;
+  }
+}
